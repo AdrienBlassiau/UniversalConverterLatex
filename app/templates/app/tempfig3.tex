@@ -1,0 +1,14 @@
+\node[draw,circle] (1) at (2.63,9.06) {1};
+\node[draw,circle] (2) at (6.94,8.9) {2};
+\node[draw,circle] (3) at (7.06,7.279999999999999) {3};
+\node[draw,circle] (4) at (4.63,6.18) {4};
+\node[draw,circle] (5) at (1.72,7.83) {5};
+
+\draw[->] (5) -- (1) node[midway,left]{A};
+\draw[->] (1) -- (2) node[midway,left]{A};
+\draw[->] (2) -- (3) node[midway,left]{A};
+\draw[->] (3) -- (4) node[midway,left]{B};
+\draw[->] (4) -- (5) node[midway,left]{A};
+\draw[->] (5) -- (3) node[midway,left]{B};
+\draw[->] (2) -- (4) node[midway,left]{A};
+\draw (1) edge [loop above] node{B} (1);

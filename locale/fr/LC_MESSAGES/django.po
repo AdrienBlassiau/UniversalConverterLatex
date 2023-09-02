@@ -1,0 +1,614 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-09 00:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/templates/app/banner.html:18
+msgid "Find"
+msgstr "Recherche"
+
+#: app/templates/app/banner.html:18
+#, fuzzy
+#| msgid "Search"
+msgid "Searc"
+msgstr "Rechercher"
+
+#: app/templates/app/banner.html:28
+msgid "There are some buttons here:"
+msgstr "Ici, il y a quelques boutons"
+
+#: app/templates/app/banner.html:29
+msgid "Sort results by popularity"
+msgstr "Trier par popularité"
+
+#: app/templates/app/banner.html:30
+msgid "Sort results by date"
+msgstr "Trier par date"
+
+#: app/templates/app/banner.html:31
+msgid "Upload file to convert it"
+msgstr "Téléverser un fichier à convertir"
+
+#: app/templates/app/banner.html:32
+msgid "Generate figures"
+msgstr "Générer les figures"
+
+#: app/templates/app/banner.html:33
+msgid "Draw figures"
+msgstr "Dessiner des figures"
+
+#: app/templates/app/banner.html:34
+msgid "Click on others"
+msgstr "Cliquer sur les autres"
+
+#: app/templates/app/banner.html:34
+msgid "to have more help"
+msgstr "pour de l'aide supplémentaire"
+
+#: app/templates/app/banner.html:35
+msgid "Change language"
+msgstr "Changer la langue"
+
+#: app/templates/app/banner.html:42
+msgid "Popular"
+msgstr "Populaire"
+
+#: app/templates/app/banner.html:49
+msgid "Recent"
+msgstr "Recent"
+
+#: app/templates/app/banner.html:63
+msgid "Convert"
+msgstr "Convertir"
+
+#: app/templates/app/banner.html:69 app/templates/app/draw_general.html:37
+#: app/templates/app/draw_graphe.html:19
+msgid "Generate"
+msgstr "Générer"
+
+#: app/templates/app/banner.html:76
+msgid "Draw"
+msgstr "Dessiner"
+
+#: app/templates/app/banner.html:84
+msgid "Help"
+msgstr "Aide"
+
+#: app/templates/app/banner.html:90 app/templates/app/home.html:320
+msgid "Languages"
+msgstr "Langues"
+
+#: app/templates/app/banner.html:131
+msgid "Manage your creations, your likes, your comments and your downloads"
+msgstr ""
+"Gère tes créations, tes préférences, tes commentaires et tes téléchargements "
+
+#: app/templates/app/banner.html:132
+msgid "Change your password or delete your account"
+msgstr "Changer mon mot de passe ou supprimer mon compte"
+
+#: app/templates/app/banner.html:133
+msgid "Change light mode"
+msgstr "Changer le mode de luminosité"
+
+#: app/templates/app/banner.html:134 app/templates/app/dropdown.html:24
+msgid "Log out"
+msgstr "Déconnexion"
+
+#: app/templates/app/comment_page.html:7 app/templates/app/like_page.html:7
+msgid "Date"
+msgstr "Date"
+
+#: app/templates/app/comment_page.html:8
+msgid "Content"
+msgstr "Contenu"
+
+#: app/templates/app/comment_page.html:9 app/templates/app/like_page.html:8
+msgid "Link"
+msgstr "Lien"
+
+#: app/templates/app/comment_page.html:10
+#: app/templates/app/draw_general.html:43 app/templates/app/draw_graphe.html:25
+msgid "Edit"
+msgstr "Editer"
+
+#: app/templates/app/comment_page.html:11
+msgid "Remove"
+msgstr "Retirer"
+
+#: app/templates/app/connection_form.html:8
+msgid "Registered already ?"
+msgstr "Déjà inscrit"
+
+#: app/templates/app/connection_form.html:9
+msgid "LOG IN"
+msgstr "CONNECTION"
+
+#: app/templates/app/connection_form.html:19
+msgid "Password Forgotten"
+msgstr "Mot de passe oublié"
+
+#: app/templates/app/connection_form.html:39
+msgid "Don't have an account ?"
+msgstr "Toujours pas de compte ?"
+
+#: app/templates/app/connection_form.html:41
+msgid "Registration"
+msgstr "Créer un compte"
+
+#: app/templates/app/convert.html:13 app/templates/app/index.html:23
+msgid "Home"
+msgstr "Page d'accueil"
+
+#: app/templates/app/convert.html:16 app/templates/app/index.html:26
+msgid "Features"
+msgstr "Options"
+
+#: app/templates/app/convert.html:20 app/templates/app/index.html:30
+msgid "Navbar text with an inline element"
+msgstr "Barre de navigation avec un element inline"
+
+#: app/templates/app/convert.html:44 app/templates/app/modaltext.html:24
+msgid "Copy in clipboard"
+msgstr "Copier dans le presse-papier"
+
+#: app/templates/app/convert.html:44 app/templates/app/modaltext.html:24
+msgid "Copied"
+msgstr "Copié"
+
+#: app/templates/app/disconnected.html:17
+msgid "Drawing on LaTeX has never been simpler !"
+msgstr "Le dessin sur LateX n'a jamais été aussi simple !"
+
+#: app/templates/app/disconnected.html:22
+msgid "Log In"
+msgstr "Connexion"
+
+#: app/templates/app/disconnected.html:27
+msgid "Register"
+msgstr "Inscription"
+
+#: app/templates/app/draw_banner.html:8
+msgid "General"
+msgstr "General"
+
+#: app/templates/app/draw_banner.html:12
+msgid "Graph"
+msgstr "Graphe"
+
+#: app/templates/app/draw_banner.html:17 app/templates/app/draw_graphe.html:44
+msgid "Change the parameters of the selected object"
+msgstr ""
+
+#: app/templates/app/draw_banner.html:21 app/templates/app/draw_graphe.html:48
+msgid "x"
+msgstr "x"
+
+#: app/templates/app/draw_banner.html:29 app/templates/app/draw_graphe.html:56
+msgid "y"
+msgstr "y"
+
+#: app/templates/app/draw_banner.html:37
+msgid "h"
+msgstr "h"
+
+#: app/templates/app/draw_banner.html:45
+msgid "w"
+msgstr "l"
+
+#: app/templates/app/draw_banner.html:53
+#, fuzzy
+#| msgid "w"
+msgid "lw"
+msgstr "l"
+
+#: app/templates/app/draw_banner.html:61
+#, fuzzy
+#| msgid "Angle "
+msgid "angle1 "
+msgstr "angle1"
+
+#: app/templates/app/draw_banner.html:69
+#, fuzzy
+#| msgid "Angle 2"
+msgid "angle2"
+msgstr "angle2"
+
+#: app/templates/app/draw_banner.html:77
+msgid "side(s)"
+msgstr "côté(s)"
+
+#: app/templates/app/draw_banner.html:88
+msgid "fill"
+msgstr "fond"
+
+#: app/templates/app/draw_banner.html:94 app/templates/app/draw_banner.html:112
+#, fuzzy
+#| msgid "Trans"
+msgid "trans"
+msgstr "trans"
+
+#: app/templates/app/draw_banner.html:106
+#, fuzzy
+#| msgid "Stroke"
+msgid "stroke"
+msgstr "contour"
+
+#: app/templates/app/draw_banner.html:122
+msgid "step"
+msgstr "pas"
+
+#: app/templates/app/draw_banner.html:130
+#, fuzzy
+#| msgid "Magnet"
+msgid "magnet"
+msgstr "aimant"
+
+#: app/templates/app/draw_general.html:9
+msgid "← Draw Arcs, Circles and Ellipses"
+msgstr ""
+
+#: app/templates/app/draw_general.html:13
+msgid "← Draw Rectangles and Squares"
+msgstr ""
+
+#: app/templates/app/draw_general.html:17
+msgid "← Draw Polygons"
+msgstr ""
+
+#: app/templates/app/draw_general.html:21
+msgid "← Draw Stars"
+msgstr ""
+
+#: app/templates/app/draw_general.html:25
+msgid "← Create and Edit Text Object"
+msgstr ""
+
+#: app/templates/app/draw_general.html:29
+msgid "← Draw Polyline"
+msgstr ""
+
+#: app/templates/app/draw_general.html:33
+msgid "← Draw Irregular Poygons"
+msgstr ""
+
+#: app/templates/app/draw_general.html:38 app/templates/app/draw_graphe.html:20
+msgid "← Generate LaTeX code"
+msgstr ""
+
+#: app/templates/app/draw_general.html:44 app/templates/app/draw_graphe.html:26
+msgid "← Edit your creations"
+msgstr ""
+
+#: app/templates/app/draw_general.html:49 app/templates/app/draw_graphe.html:31
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: app/templates/app/draw_general.html:50 app/templates/app/draw_graphe.html:32
+msgid "← Save in your creations"
+msgstr ""
+
+#: app/templates/app/draw_general.html:58 app/templates/app/draw_graphe.html:41
+#, fuzzy
+#| msgid "Draw figures"
+msgid "Draw here!"
+msgstr "Dessiner des figures"
+
+#: app/templates/app/draw_general.html:66
+#: app/templates/app/draw_graphe.html:186
+msgid "The LaTeX code will be displayed there"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:9
+msgid "← Draw State"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:13
+msgid "← Draw Transition"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:64
+msgid "height"
+msgstr "hauteur"
+
+#: app/templates/app/draw_graphe.html:72
+msgid "width"
+msgstr "largeur"
+
+#: app/templates/app/draw_graphe.html:80
+msgid "LineWidth"
+msgstr "épaisseur"
+
+#: app/templates/app/draw_graphe.html:88
+msgid "State Type"
+msgstr "Type d'état"
+
+#: app/templates/app/draw_graphe.html:90
+msgid "Initial"
+msgstr "Initial"
+
+#: app/templates/app/draw_graphe.html:91
+msgid "Final"
+msgstr "Final"
+
+#: app/templates/app/draw_graphe.html:95
+#, fuzzy
+#| msgid "State Type"
+msgid "State Style"
+msgstr "Type d'état"
+
+#: app/templates/app/draw_graphe.html:98
+msgid "rect"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:99
+msgid "diam"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:100
+msgid "circ"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:105
+msgid "Arrow Style"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:108
+msgid "1"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:109
+msgid "2"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:110
+msgid "3"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:111
+msgid "4"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:112
+msgid "5"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:118
+msgid "Fill"
+msgstr "fond"
+
+#: app/templates/app/draw_graphe.html:126
+#: app/templates/app/draw_graphe.html:144
+msgid "Trans"
+msgstr "Trans"
+
+#: app/templates/app/draw_graphe.html:136
+msgid "Stroke"
+msgstr "contour"
+
+#: app/templates/app/draw_graphe.html:154
+msgid "Grid Step"
+msgstr ""
+
+#: app/templates/app/draw_graphe.html:162
+msgid "Magnet"
+msgstr "Aimantation"
+
+#: app/templates/app/draw_graphe.html:169
+#, fuzzy
+#| msgid "Change light mode"
+msgid "Changer le nom"
+msgstr "Changer le mode de luminosité"
+
+#: app/templates/app/dropdown.html:7
+msgid "My profile"
+msgstr "Mon Profil"
+
+#: app/templates/app/dropdown.html:12
+msgid "Settings"
+msgstr "Réglages"
+
+#: app/templates/app/dropdown.html:17
+msgid "Night mode"
+msgstr "Mode Nuit"
+
+#: app/templates/app/dropdown_idiomas.html:7
+#: universalConverterLatexSite/settings.py:129
+msgid "French"
+msgstr ""
+
+#: app/templates/app/dropdown_idiomas.html:12
+#: universalConverterLatexSite/settings.py:130
+msgid "English"
+msgstr ""
+
+#: app/templates/app/dropdown_idiomas.html:17
+#: universalConverterLatexSite/settings.py:131
+msgid "Spanish"
+msgstr ""
+
+#: app/templates/app/email.html:6
+#, fuzzy
+#| msgid "Settings"
+msgid "Greetings"
+msgstr "Cher"
+
+#: app/templates/app/email.html:7
+msgid ""
+"If you wish to reset the password of the Universal Latex Converter "
+"associated with this address"
+msgstr ""
+"Si vous souhaitez réinitialiser votre mot de passe UCL associé à cette "
+"adresse"
+
+#: app/templates/app/email.html:7
+msgid ", click here :"
+msgstr ", cliquer ici :"
+
+#: app/templates/app/email.html:20
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: app/templates/app/email.html:26
+msgid ""
+"If you have not asked for your password to be reset, simply ignore this "
+"email. It most likely has been caused by wrong user input."
+msgstr ""
+"Si vous n'avez pas demandé à réinitialiser votre mot de passe, ignorez "
+"simplement ce mail."
+
+#: app/templates/app/email.html:27
+msgid "Have no fear, the security of your data has not been compromised."
+msgstr "N'ayez crainte, la sécurité de vos données n'a pas été compromise"
+
+#: app/templates/app/email.html:29
+msgid "The Agile Dragons"
+msgstr "Le Dragon Agile"
+
+#: app/templates/app/index.html:19
+msgid "Universal Converter LaTeX"
+msgstr "Universal Converter LaTeX"
+
+#: app/templates/app/modal.html:26 app/templates/app/upload_dropdown.html:8
+msgid "Download"
+msgstr "Télécharger"
+
+#: app/templates/app/modaltext.html:16
+msgid "Code Latex"
+msgstr "Code Latex"
+
+#: app/templates/app/new_password_form.html:9
+msgid "Password Change"
+msgstr "Changement de mot de passe"
+
+#: app/templates/app/overlay_banner.html:8
+msgid "Here, you can search some figures"
+msgstr "Ici, vous pouvez chercher des figures"
+
+#: app/templates/app/profile_banner.html:7
+msgid "Creations"
+msgstr "Créations"
+
+#: app/templates/app/profile_banner.html:10
+msgid "Likes"
+msgstr "Likes"
+
+#: app/templates/app/profile_banner.html:13
+msgid "Comments"
+msgstr "Commentaires"
+
+#: app/templates/app/registration_form.html:9
+msgid "First time on UNIVERSAL CONVERTER LaTeX ?"
+msgstr "Débutant sur Universal Converter LateX ?"
+
+#: app/templates/app/registration_form.html:10
+msgid "REGISTER"
+msgstr "Inscription"
+
+#: app/templates/app/registration_form.html:41
+#, fuzzy
+#| msgid ""
+#| "By registering, you acknowledge having read and agreeing to Universal "
+#| "Converter LaTeX"
+msgid ""
+"By registering, you acknowledge having read and agreeing to Universal "
+"Converter LaTeX's"
+msgstr "En vous inscrivant, vous reconnaissez avoir lu et accepter"
+
+#: app/templates/app/registration_form.html:41
+msgid "privacy policy"
+msgstr "notre charte de confidentialité"
+
+#: app/templates/app/registration_form.html:41
+msgid "and"
+msgstr "et"
+
+#: app/templates/app/registration_form.html:41
+msgid "end-user license agreement"
+msgstr "notre charte de confidentialité et notre accord utilisateur"
+
+#: app/templates/app/registration_form.html:50
+msgid "I'd like to be informed of UCL's news."
+msgstr ""
+
+#: app/templates/app/registration_form.html:67
+msgid "Already registered ?"
+msgstr "Déjà inscrit ?"
+
+#: app/templates/app/registration_form.html:69
+msgid "Log in !"
+msgstr "Connection !"
+
+#: app/templates/app/reset_password_form.html:9
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: app/templates/app/reset_password_form.html:13
+#, fuzzy
+#| msgid "If the email address is linked to an account, you"
+msgid ""
+"If the email address is linked to an account, you'll be sent a link allowing "
+"you to reset your password."
+msgstr ""
+"Si votre adresse mail est liée à un compte, vous recevrez un lien vous "
+"permettant de réinitialiser votre mot de passe"
+
+#: app/templates/app/settings.html:15
+msgid "Change Password"
+msgstr "Changer le mot de passe"
+
+#: app/templates/app/settings.html:57
+msgid "Delete account"
+msgstr "Supprimer le compte"
+
+#: app/templates/app/tag_list.html:19
+msgid "more"
+msgstr "plus"
+
+#: django_tex/models.py:12
+msgid "Template not found."
+msgstr "Template non trouvé"
+
+#: templates/admin/base_site.html:3
+msgid "Django site admin"
+msgstr ""
+
+#: universalConverterLatexSite/settings.py:132
+msgid "Japanase"
+msgstr ""
+
+#~ msgid "ep."
+#~ msgstr "ep."
+
+#~ msgid "Side"
+#~ msgstr "Côté(s)"
+
+#~ msgid "Transition value"
+#~ msgstr "Valeur de transition"
+
+#~ msgid "Downloads"
+#~ msgstr "Téléchargements"
+
+#~ msgid "Tree"
+#~ msgstr "Arbre"
+
+#~ msgid "Angle 1"
+#~ msgstr "Angle 1"
+
+#~ msgid "I"
+#~ msgstr "I"

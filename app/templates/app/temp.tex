@@ -1,0 +1,36 @@
+\RequirePackage{luatex85}
+\documentclass[border = 1 cm]{standalone}
+\usepackage{chemfig}
+\definecolor{custom_color}{RGB}{230,230,23}%You can modify your color here%
+\newlength{\mcfvspace}
+\setlength{\mcfvspace}{1.5pt}
+\newcommand{\mcfabove}[2]{\chemabove[\mcfvspace]{ #1}{ #2}}
+\newcommand{\mcfbelow}[2]{\chembelow[\mcfvspace]{ #1}{ #2}}
+\newcommand{\mcfplus}{+}
+\newcommand{\mcfminus}{-}
+\newlength{\boxwidth}
+\newlength{\boxheight}
+\newcommand{\boxmcf}[3][l]{
+\settowidth{\boxwidth}{\printatom{ #2}}
+\settoheight{\boxheight}{\printatom{ #2}}
+\makebox[\boxwidth][#1]{\raisebox{0pt}[\boxheight][0pt]{\printatom{ #3}}}}
+\newcommand{\mcfleft}[2]{\boxmcf[r]{ #2}{ #1#2}}
+\newcommand{\mcfright}[2]{\boxmcf{ #1}{ #1#2}}
+\newcommand{\mcfaboveright}[3]{\mcfabove{ #1}{\boxmcf{ #2}{ #2#3}}}
+\newcommand{\mcfbelowright}[3]{\mcfbelow{ #1}{\boxmcf{ #2}{ #2#3}}}
+\begin{document}
+
+\chemfig{
+                               ^{\mcfminus}O% 1
+                      -[:60,,2]S% 2
+                                  (
+                            =[:330]O% 3
+                                  )
+                                  (
+                            =[:150]O% 4
+                                  )
+                         -[:60]\mcfright{O}{^{\mcfminus}}% 5
+    -[:323.8,2.932,,,draw=none]\mcfright{Ca}{^{2\mcfplus}}% 6
+}
+
+\end{document}

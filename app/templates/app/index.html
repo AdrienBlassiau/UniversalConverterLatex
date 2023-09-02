@@ -1,0 +1,95 @@
+{% load staticfiles %}
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/style.css' %}">
+<nav class="navbar navbar-dark bg-dark taillenav">
+<a class="navbar-brand" href="/app">Universal Converter LaTeX</a>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
+  </div>
+</nav>
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="{% url 'app:detail' question.id %}">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+    <p>{{ apa }}<p>
+{% else %}
+    <div class="d-flex tailleblock">
+    <div class="sidebar">
+        <ul class="nav flex-column">
+            <li class="taillelinav nav-item" ><button class="btn btn-secondary taillelinav nav-link" id="aff1">Rectangle</button>
+            </li>
+            <li class="taillelinav nav-item"><button class="btn btn-secondary taillelinav nav-link" id="aff2">Losange</button></li>
+            <li class="taillelinav nav-item"><button class="btn btn-secondary taillelinav nav-link" id="aff3">Parallélogramme</button></li>
+            <li class="taillelinav nav-item"> <button class="btn btn-secondary taillelinav nav-link" id="aff4">Trapèze</button></li>
+            <li class="taillelinav nav-item"><button class="btn btn-secondary taillelinav nav-link" id="aff5">Polygone</button></li>
+        </ul>
+    </div>
+    <div class="taillehome d-flex">
+        <div class="textelatex flex-column">
+            <div class="navhome" id="formulaire">
+               <!-- <iframe class=" taille1" id="iframepdf" src="{% url 'app:latex_converter_pdf' %}"></iframe>-->
+               {% include './formulaires/formulaire_triangle.html' %}  
+            </div>
+            <div class="navhome"><textarea class="taille1" name="textarea" rows="10" cols="69">{{latex_objet.content}}</textarea></div>
+        </div>
+
+        <div class="imagelatex">
+            <div class="navhome"><iframe class="taille1" id="iframepdf2" src="{% url 'app:latex_converter_pdf' %}"></iframe></div>
+            <div class="navhome">
+                <a href="{% url 'app:latex_converter_string_to_pdf' %}">Dessine moi une molécule dans un pdf sur un iframe</a><br>
+                <a href="{% url 'app:latex_converter_pdf' %}" target="_blank">Dessine moi une molécule dans un pdf sur un autre onglet</a><br>
+                <p>Br</p>
+            </div>
+        </div>
+    </div>
+
+    {% if dessin_commande %}
+    {% endif %}
+    </div>
+{% endif %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!--<script>   $("#aff1").click(function () {
+        document.getElementById('formulaire').innerHTML = "{% include './formulaires/formulaire_point.html' %} ";
+     });
+     $("#aff2").click(function () {
+        document.getElementById('formulaire').innerHTML = "{% include './formulaires/formulaire_point.html' %} ";
+     });
+     $("#aff3").click(function () {
+        document.getElementById('formulaire').innerHTML = "{% include './formulaires/formulaire_cercle.html' %} ";
+     });
+     $("#aff4").click(function () {
+        document.getElementById('formulaire').innerHTML = "{% include './formulaires/formulaire_triangle.html' %} ";
+     });
+     $("#aff5").click(function () {
+        document.getElementById('formulaire').innerHTML = "{% include './formulaires/formulaire_triangle.html' %} ";
+     });
+
+</script>-->
+<script>
+    $("#aff1,#aff2,#aff3,#aff4,#aff5").click(function () {
+        $.ajax({
+            url: "{% url 'app:manage_dropdown' %}",
+            data: {
+                input: $(this).attr('id')
+            },
+            dataType: 'json',
+            success: function (data) {
+                document.getElementById('formulaire').innerHTML = data.respond;
+            }
+        });
+    });
+  </script>

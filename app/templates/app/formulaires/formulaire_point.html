@@ -1,0 +1,21 @@
+{% load staticfiles %}
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'app/style.css' %}">
+<form class="taille1 pt-3 pr-3 pl-3">
+  <div class="form-row">
+    <label for="inputEmail3" class="col-sm-1 col-form-label">X1</label>
+    <div class="col pr-4">
+      <input type="number" class="w-50 form-control" id="inputEmail3" placeholder="X1">
+    </div>
+    <label for="inputEmail3" class="col-sm-1 col-form-label">Y1</label>
+    <div class="col">
+      <input type="number" class="w-50 form-control" id="inputEmail3" placeholder="Y1">
+    </div>
+  </div>
+  <div class="pt-3 d-flex justify-content-center form-group row">
+      <button type="submit" class="btn btn-secondary">OK</button>
+  </div>
+</form>
